@@ -24,8 +24,9 @@ SECRET_KEY = 'ewx-e7o=mf_*42@op#ilc6oo6c5m*k!22ye%xi9a5jhzp!^t7k'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
+# DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','localhost','.haozishi.com']
+ALLOWED_HOSTS = ['127.0.0.1','localhost','.heibanbao.com']
 
 
 # Application definition
