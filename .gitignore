@@ -2,3 +2,4 @@
 .vscode/
 blogproject/fabfile.py
 blogproject/fabfile.pyc
+*.pyc
