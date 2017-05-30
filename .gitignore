@@ -3,3 +3,4 @@
 blogproject/fabfile.py
 blogproject/fabfile.pyc
 *.pyc
+db.sqlite3
