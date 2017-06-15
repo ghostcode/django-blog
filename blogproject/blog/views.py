@@ -6,7 +6,7 @@ from django.core.paginator import Paginator,EmptyPage,PageNotAnInteger
 from comments.forms import CommentForm
 from .models import Post,Category
 
-# Create your views here.
+# Create your views here. Very Good
 def index(request):
     post_list = Post.objects.all()
     paginator = Paginator(post_list,2)

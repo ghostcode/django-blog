@@ -1,6 +1,5 @@
 var searchvisible = 0;
-console.log(12229999911)
-$("#search-menu").click(function(e){ 
+$("#search-menu").click(function(e){
     //This stops the page scrolling to the top on a # link.
     e.preventDefault();
 
