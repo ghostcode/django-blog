@@ -36,6 +36,7 @@ class Post(models.Model):
     # 文章标题
     title = models.CharField(max_length=70)
 
+    # 阅读量
     views = models.PositiveIntegerField(default=0)
 
     # 文章正文，我们使用了 TextField。
