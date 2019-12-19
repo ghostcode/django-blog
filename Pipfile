@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+appdirs = "==1.4.3"
+django = "==1.10.6"
+markdown = "==2.6.8"
+pygments = "==2.2.0"
+pyparsing = "==2.2.0"
+pytz = "==2017.2"
+six = "==1.10.0"
+
+[requires]
+python_version = "3.7"
