@@ -7,7 +7,7 @@ verify_ssl = true
 
 [packages]
 appdirs = "==1.4.3"
-django = "==1.10.6"
+django = "==1.11.23"
 markdown = "==2.6.8"
 pygments = "==2.2.0"
 pyparsing = "==2.2.0"
