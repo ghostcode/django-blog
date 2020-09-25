@@ -1,6 +1,6 @@
 # 基于 Django 的博客系统
 
-####虚拟环境
+### 虚拟环境
 
 查看：
 
@@ -34,7 +34,7 @@ admin账户：
     admin
     123
 
-###启动
+### 启动
     
 ``` 
 cd blogproject
@@ -42,6 +42,6 @@ cd blogproject
 python3 manage.py runserver
 ```
 
-###上线
+### 上线
 
 
