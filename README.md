@@ -29,6 +29,11 @@ user.set_password('new_password')
 user.save()
 ```
 
+admin账户：
+
+    admin
+    123
+
 ###启动
     
 ``` 
