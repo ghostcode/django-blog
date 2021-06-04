@@ -29,6 +29,7 @@ class IndexView(ListView):
     model = Post  # short for queryset = Post.objects.all()
     template_name = 'blog/index.html'
     context_object_name = 'post_list'
+    paginate_by = 3
 
 
 # def detail(request, pk):

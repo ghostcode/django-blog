@@ -1,5 +1,9 @@
 # 基于 Django 的博客系统
 
+### 安装
+
+    pipenv install 
+
 ### 虚拟环境
 
 查看：
@@ -12,35 +16,33 @@
 退出激活：
 
     exit
+### 启动
     
-找回用户名和密码：
 
-```
-pipenv shell
+    cd blogproject
 
-python manage.py shell 
+    python3 manage.py runserver
 
-from django.contrib.auth.models import User        
 
-user =User.objects.get(username='admin')
 
-user.set_password('new_password')  
-
-user.save()
-```
-
-admin账户：
+### admin账户：
 
     admin
     123
-
-### 启动
     
-``` 
-cd blogproject
+### 找回用户名和密码：
 
-python3 manage.py runserver
-```
+    pipenv shell
+
+    python manage.py shell 
+
+    from django.contrib.auth.models import User        
+
+    user =User.objects.get(username='admin')
+
+    user.set_password('new_password')  
+
+    user.save()
 
 ### 上线
 
